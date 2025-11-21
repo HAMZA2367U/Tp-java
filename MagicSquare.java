@@ -43,6 +43,6 @@ public class MagicSquare {
             {4, 9, 2}
         };
 
-        System.out.println(isMagic(mat)); // true
+        System.out.println(isMagic(mat));
     }
 }
