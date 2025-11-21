@@ -7,8 +7,8 @@ public class Diagonales {
         int sommeSecondaire = 0;
 
         for (int i = 0; i < n; i++) {
-            sommePrincipale += mat[i][i];           // diagonal principale
-            sommeSecondaire += mat[i][n - 1 - i];   // diagonal secondaire
+            sommePrincipale += mat[i][i];           
+            sommeSecondaire += mat[i][n - 1 - i];   
         }
 
         return Math.abs(sommePrincipale - sommeSecondaire);
@@ -21,6 +21,6 @@ public class Diagonales {
             {7, 8, 9}
         };
 
-        System.out.println(differenceDiagonales(mat)); // 0
+        System.out.println(differenceDiagonales(mat)); 
     }
 }
