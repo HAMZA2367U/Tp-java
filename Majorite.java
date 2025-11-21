@@ -19,7 +19,7 @@ public class Majorite {
         int[] t1 = {2, 2, 1, 2, 3};
         int[] t2 = {1, 2, 3, 4};
 
-        System.out.println(findMajority(t1)); // 2
-        System.out.println(findMajority(t2)); // -1
+        System.out.println(findMajority(t1)); 
+        System.out.println(findMajority(t2));
     }
 }
